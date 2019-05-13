@@ -1,0 +1,18 @@
+{
+	"name": "daily-muslim-checklist",
+	"description": "Daily Islamic Checklist for a muslim",
+	"version": "0.0.1",
+	"author": "Jamal Uddin",
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"now-build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"next": "^8.1.0",
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6"
+	},
+	"license": "MIT"
+}
