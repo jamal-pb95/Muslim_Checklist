@@ -1,10 +1,10 @@
 /* eslint-disable no-unused-vars */
 import Layout from '../components/Layout';
 
-const Index = () => (
+const TakeCare = () => (
 	<div>
 		<Layout />
 	</div>
 );
 
-export default Index;
+export default TakeCare;
