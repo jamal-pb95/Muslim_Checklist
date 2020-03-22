@@ -1,0 +1,23 @@
+{
+	"morning": [
+		{
+			"id": 1,
+			"title": "dua",
+			"dua": "Ya allah! Forgive us."
+		}
+	],
+	"evening": [
+		{
+			"id": 1,
+			"title": "dua",
+			"dua": "Ya allah! Forgive us."
+		}
+	],
+	"aftersalah": [
+		{
+			"id": 1,
+			"title": "dua",
+			"dua": "Ya all"
+		}
+	]
+}

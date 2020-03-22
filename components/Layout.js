@@ -15,7 +15,7 @@ const Layout = (props) => (
 						<Card title="সালাত" message="আপনার সালাত সমূহ সংরক্ষণ করুন।" />
 					</div>
 				</Link>
-				<Link href="/siam">
+				<Link href="/ramadan">
 					<div style={cardColumn}>
 						<Card title="সাওম" message="আপনার সাওম সমূহ সংরক্ষণ করুন।" />
 					</div>
@@ -27,7 +27,7 @@ const Layout = (props) => (
 						<Card title="ইসলামী জ্ঞান শিখুন" message="কুরআন ও হাদিস থেকে ইসলামী জ্ঞান অর্জন করুন" />
 					</div>
 				</Link>
-				<Link href="/time">
+				<Link href="/timeMangement">
 					<div style={cardColumn}>
 						<Card title="সময়ানুবর্তীতা" message="আপনার সময় কে ভালো কাজে লাগান ও ট্রাক করে রাখুন" />
 					</div>
@@ -54,12 +54,12 @@ const Layout = (props) => (
 export default Layout;
 
 const cardWrapper = {
-	backgroundColor: 'green',
+	backgroundColor: '#0FAFFF',
 	padding: 20
 };
 
 const cardRow = {
-	color: 'red',
+	color: 'purple',
 	display: 'flex'
 };
 

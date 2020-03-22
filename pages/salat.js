@@ -1,10 +1,6 @@
 /* eslint-disable no-unused-vars */
-import Layout from '../components/Layout';
+import checklist from '../data/checklist';
 
-const Salat = () => (
-	<div>
-		<Layout />
-	</div>
-);
+const Salat = () => <div>{checklist.salat.map((i) => <h3>{i.title}</h3>)}</div>;
 
 export default Salat;

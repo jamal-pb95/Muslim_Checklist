@@ -2,9 +2,9 @@
 import Link from 'next/link';
 
 const Header = () => (
-	<div>
+	<div style={{ textAlign: 'center' }}>
 		<Link href="/">
-			<h1>Daily Muslim Checklist</h1>
+			<h1>Muslim Checklist</h1>
 		</Link>
 		<p>Daily checklist for all muslim for their good deeds</p>
 	</div>

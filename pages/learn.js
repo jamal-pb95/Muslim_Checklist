@@ -1,10 +1,6 @@
 /* eslint-disable no-unused-vars */
-import Layout from '../components/Layout';
+import checklist from '../data/checklist';
 
-const Learn = () => (
-	<div>
-		<Layout />
-	</div>
-);
+const Learn = () => <div>{checklist.learn.map((i) => <h3>{i.title}</h3>)}</div>;
 
 export default Learn;
